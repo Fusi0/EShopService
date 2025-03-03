@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopService", "EShopService\EShopService.csproj", "{AE6940D7-B3E4-4F83-A711-61081F3C2320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C5AA1153-F67A-495D-862B-659E30F0480C}"
+	ProjectSection(SolutionItems) = preProject
+		BaseModel.cs = BaseModel.cs
+		Category.cs = Category.cs
+		Product.cs = Product.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6940D7-B3E4-4F83-A711-61081F3C2320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6940D7-B3E4-4F83-A711-61081F3C2320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6940D7-B3E4-4F83-A711-61081F3C2320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6940D7-B3E4-4F83-A711-61081F3C2320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {585302FD-969F-4932-91D3-50D66100133A}
+	EndGlobalSection
+EndGlobal
